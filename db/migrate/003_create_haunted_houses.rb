@@ -6,6 +6,8 @@ class CreateHauntedHouses < ActiveRecord::Migration[4.2]
       t.string :location 
       t.string :theme
       
+      t.datetime Date.new(:year, :month, :day)
+      
       
     end 
   end 
