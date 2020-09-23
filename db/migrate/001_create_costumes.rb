@@ -10,4 +10,8 @@ class CreateCostumes < ActiveRecord::Migration
 # In this change method, create columns with the correct names and 
 # value types according to the spec
 
+  def change 
+    create_table :costumes
+  end 
+
 end
